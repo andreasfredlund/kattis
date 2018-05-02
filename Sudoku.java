@@ -31,7 +31,7 @@ public class Sudoku {
 		}
 
 		if (!initial) {
-			System.out.println("Find another job lul");
+			System.out.println("Find another job");
 			return false;
 		} else if (countDigits < 17) { // Its proven that a sudoku with <17 known number has multiple solutions.
 			System.out.println("Non-unique");
